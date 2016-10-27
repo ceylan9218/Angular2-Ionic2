@@ -1,0 +1,39 @@
+{
+   "uuId": "fb09f6a1-7bf7-439d-b86a-2d7ac1300f16",
+   "name": "what-else",
+   "metadata": {
+      "grouping": "Concern Details",
+      "answersType": "Prose",
+      "required": false,
+      "uiElement": "textbox"
+   },
+   "display": {
+      "query": "What else should we know?",
+      "abbreviatedQuery": "What else?",
+      "instruction": "Share anything important that was not covered in other questions.",
+      "help": "Is there anything else we should know regarding your report? Type in the text box to enter any additional descriptions or info that could prove useful."
+   },
+   "attachments": {
+      "acceptedTypes": [],
+      "uploadedData": []
+   },
+   "answers": [
+      {
+         "choice": "Type your notes here...",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "aaf0d690-e6bc-438b-aba6-0867d5df351b"
+      }
+   ]
+}

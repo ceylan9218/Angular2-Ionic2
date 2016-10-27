@@ -1,0 +1,906 @@
+{
+   "uuId": "c8b7c5f8-7efa-4db0-9dc9-19817daf271f",
+   "name": "issue-selection",
+   "metadata": {
+      "grouping": "Concern Overview",
+      "answersType": "Single",
+      "required": true,
+      "uiElement": "list"
+   },
+   "display": {
+      "query": "Select your Area of Concern",
+      "abbreviatedQuery": "Select your Concern",
+      "instruction": "Scroll down to view more options.",
+      "help": "Please share what happened in as much detail as possible. You can also submit a photo or audio recording along with your description of the issue."
+   },
+   "attachments": {
+      "acceptedTypes": [],
+      "uploadedData": []
+   },
+   "answers": [
+      {
+         "choice": "Theft",
+         "category": "Physical Security",
+         "icon": "fa-unlock-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "43a8b029-f547-4235-bb15-39bd4b88b01c"
+      },
+      {
+         "choice": "Drugs",
+         "category": "Physical Security",
+         "icon": "fa-unlock-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "e83f0cde-ed43-4ca2-8992-a5d8052d2829"
+      },
+      {
+         "choice": "Vandalism",
+         "category": "Physical Security",
+         "icon": "fa-unlock-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "cf6a7645-9040-4949-a7b8-1cb2dcee3508"
+      },
+      {
+         "choice": "Argument",
+         "category": "Physical Security",
+         "icon": "fa-unlock-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "85aa270a-ba11-400d-a53b-91904de88b8c"
+      },
+      {
+         "choice": "Threats",
+         "category": "Physical Security",
+         "icon": "fa-unlock-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "15c60f1e-4b4b-4523-ac4c-8850e7147de6"
+      },
+      {
+         "choice": "Unauthorized Access",
+         "category": "Physical Security",
+         "icon": "fa-unlock-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "98506534-fb4c-4d91-9883-b2be9da6050f"
+      },
+      {
+         "choice": "Weapons",
+         "category": "Physical Security",
+         "icon": "fa-unlock-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "98411cb1-66ee-49b4-9384-f8eb70a1edae"
+      },
+      {
+         "choice": "Unauthorized Activity",
+         "category": "Physical Security",
+         "icon": "fa-unlock-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "ff67adad-079c-4569-92ff-2ade3e02dfcd"
+      },
+      {
+         "choice": "Premises Not Secured",
+         "category": "Physical Security",
+         "icon": "fa-unlock-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "da5f1714-2197-4cd9-864d-15976fdd0a3d"
+      },
+      {
+         "choice": "Trespassing",
+         "category": "Physical Security",
+         "icon": "fa-unlock-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "ba83904c-9d27-40cb-b602-fa0e7ffd1df1"
+      },
+      {
+         "choice": "Device Stolen",
+         "category": "Data & IT Security",
+         "icon": "fa-laptop",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "2e29c42b-5cb5-453f-8734-b374fd7b50e7"
+      },
+      {
+         "choice": "Password Compromised",
+         "category": "Data & IT Security",
+         "icon": "fa-laptop",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "f83e3179-b680-473a-8f91-ebb4dd6bd15e"
+      },
+      {
+         "choice": "Clicked a Suspicious Link",
+         "category": "Data & IT Security",
+         "icon": "fa-laptop",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "254a3cd6-9293-4f12-9fdc-9dd6f7a4320c"
+      },
+      {
+         "choice": "Device Lost",
+         "category": "Data & IT Security",
+         "icon": "fa-laptop",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "78b5b6be-8bff-4e3b-aa71-05079e29df74"
+      },
+      {
+         "choice": "Social Engineering",
+         "category": "Data & IT Security",
+         "icon": "fa-laptop",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "5ad08d6b-33d7-4ef1-aa7d-b0d4ba771b22"
+      },
+      {
+         "choice": "Unauthorized Access of Data",
+         "category": "Data & IT Security",
+         "icon": "fa-laptop",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "2993d112-cc98-483e-ad25-2d9b0b0b9533"
+      },
+      {
+         "choice": "Unauthorized Access of IT Facility",
+         "category": "Data & IT Security",
+         "icon": "fa-laptop",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "fabbd1e7-f40a-4c70-9554-b94dfce67fbf"
+      },
+      {
+         "choice": "Device Found",
+         "category": "Data & IT Security",
+         "icon": "fa-laptop",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "9916e7eb-460c-4dc9-be65-9edb47bf9fd4"
+      },
+      {
+         "choice": "Direct Threat",
+         "category": "Harassment",
+         "icon": "fa-user-secret",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "05bb0dfc-9f14-4e4b-9e65-6eeed7c124ff"
+      },
+      {
+         "choice": "Overheard Threat",
+         "category": "Harassment",
+         "icon": "fa-user-secret",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "8f8bcd77-15be-4bfb-b356-d88da67b5a14"
+      },
+      {
+         "choice": "Don't Feel Safe",
+         "category": "Harassment",
+         "icon": "fa-user-secret",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "17aaad4e-a4d3-4a69-b1b9-dd76c17eb77a"
+      },
+      {
+         "choice": "Being Bullied",
+         "category": "Harassment",
+         "icon": "fa-user-secret",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "ac81073e-902f-409f-b62c-bb4fdc5fb3a0"
+      },
+      {
+         "choice": "Descrimination",
+         "category": "Harassment",
+         "icon": "fa-user-secret",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "7de13a25-1d47-438a-b027-7f81e8659bab"
+      },
+      {
+         "choice": "Broken Window",
+         "category": "Environmental Safety",
+         "icon": "fa-fire",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "d4083870-676f-4aa0-9d7e-9bab14788bd6"
+      },
+      {
+         "choice": "Broken Lock",
+         "category": "Environmental Safety",
+         "icon": "fa-fire",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "b1e3bd2f-79cd-4850-a572-5f92c80a955f"
+      },
+      {
+         "choice": "Spilled Fluid",
+         "category": "Environmental Safety",
+         "icon": "fa-fire",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "9185fa87-9f20-4d4c-8659-f97a71e174d9"
+      },
+      {
+         "choice": "Fumes",
+         "category": "Environmental Safety",
+         "icon": "fa-fire",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "27c5310b-6f0c-4d29-a3c8-30318954135d"
+      },
+      {
+         "choice": "Hazardous Materials (Hazmat)",
+         "category": "Environmental Safety",
+         "icon": "fa-fire",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "a36a0b22-54c8-4f97-bbc3-0c31dade555b"
+      },
+      {
+         "choice": "Electrical Hazard",
+         "category": "Environmental Safety",
+         "icon": "fa-fire",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "6952475a-5bef-4f3e-806c-29ab302d378d"
+      },
+      {
+         "choice": "Tripping/Fall Hazard",
+         "category": "Environmental Safety",
+         "icon": "fa-fire",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "45c70578-634f-4cdb-8de8-bc742a2f223d"
+      },
+      {
+         "choice": "Fire Hazard",
+         "category": "Environmental Safety",
+         "icon": "fa-fire",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "68f1ad85-c362-4560-af05-2d1f3f5f467e"
+      },
+      {
+         "choice": "Dangerous Assembly Process",
+         "category": "Process Safety",
+         "icon": "fa-list-ol",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "7c8cffd5-83fb-4c62-9b4d-a55e1adf7396"
+      },
+      {
+         "choice": "Moving Process Dangerous",
+         "category": "Process Safety",
+         "icon": "fa-list-ol",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "c8b838e0-2569-4b9b-8dd2-1b6c84e6e5c1"
+      },
+      {
+         "choice": "Safety Protocol Ignored",
+         "category": "Equipment Safety",
+         "icon": "fa-cogs",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "42c61054-3ef8-47ef-9ff6-42b4d3b65ce8"
+      },
+      {
+         "choice": "In Dangerous Disrepair",
+         "category": "Equipment Safety",
+         "icon": "fa-cogs",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "d890baa4-4d4f-4dfe-a7ee-df71ec3ca72c"
+      },
+      {
+         "choice": "Item Dangerous to Use (Guard Missing)",
+         "category": "Equipment Safety",
+         "icon": "fa-cogs",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "98ed8f64-5b70-43b2-8ca5-55abb3e686e7"
+      },
+      {
+         "choice": "Used in Unintended Manner",
+         "category": "Equipment Safety",
+         "icon": "fa-cogs",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "9a400ae6-6b02-4874-8655-a2c080497314"
+      },
+      {
+         "choice": "Safety Mechanisms Ignored",
+         "category": "Equipment Safety",
+         "icon": "fa-cogs",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "7223a334-c697-4e57-863c-63b1998283a0"
+      },
+      {
+         "choice": "Safety Mechanisms Deliberately Tampered",
+         "category": "Equipment Safety",
+         "icon": "fa-cogs",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "d0afe13f-d977-46e0-ab31-f3fc1e3dec71"
+      },
+      {
+         "choice": "Cash Missing",
+         "category": "Fraud",
+         "icon": "fa-money",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "564fb823-9d31-41f0-b455-44011ca92f66"
+      },
+      {
+         "choice": "Steal and Sell (including over-ordering)",
+         "category": "Fraud",
+         "icon": "fa-money",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "cbb18521-4fc9-4fa6-9efb-87ebf6d0a6fd"
+      },
+      {
+         "choice": "Misuse of Credit Card",
+         "category": "Fraud",
+         "icon": "fa-money",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "e4f6e61c-e7c2-4b77-bb1f-f4c519027079"
+      },
+      {
+         "choice": "Fraudulent Accounts or Transactions",
+         "category": "Fraud",
+         "icon": "fa-money",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "b9d2b33d-55f0-4d4a-8683-5c8be8a5d2f4"
+      },
+      {
+         "choice": "Fake Expenses",
+         "category": "Fraud",
+         "icon": "fa-money",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "428be2dc-5bab-4ef2-8903-3029588c5af6"
+      },
+      {
+         "choice": "Bribery",
+         "category": "Integrity",
+         "icon": "fa-users",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "aae47775-5a9d-4cdd-ae67-a3625334fa29"
+      },
+      {
+         "choice": "Dishonesty",
+         "category": "Integrity",
+         "icon": "fa-users",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "9f54103a-c4ba-4b0b-9df3-db9ff37b9901"
+      },
+      {
+         "choice": "Misuse of Confidential Information",
+         "category": "Integrity",
+         "icon": "fa-users",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "56740a90-f6a8-467f-b33d-ed33829b7470"
+      },
+      {
+         "choice": "Discrimination",
+         "category": "Integrity",
+         "icon": "fa-users",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "e9230081-ef2d-4e3d-b90c-c680d600caba"
+      },
+      {
+         "choice": "Compliance Info Not Being Reported",
+         "category": "Compliance",
+         "icon": "fa-list-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "09334d26-a2fc-4058-98f6-7ddd26653c9c"
+      },
+      {
+         "choice": "Data Being Manipulated",
+         "category": "Compliance",
+         "icon": "fa-list-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "d66d5006-5e44-4e29-861f-ba19c68c206e"
+      },
+      {
+         "choice": "Data Being Stored Incorrectly",
+         "category": "Compliance",
+         "icon": "fa-list-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "622bf444-2668-41cc-a68c-a4d174b07c81"
+      },
+      {
+         "choice": "Data Being Used Incorrectly",
+         "category": "Compliance",
+         "icon": "fa-list-alt",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "ecc7eabd-a0b0-4b82-9f41-0cb30ea182c2"
+      }
+   ]
+}

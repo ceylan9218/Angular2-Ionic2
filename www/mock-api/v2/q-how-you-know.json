@@ -1,0 +1,141 @@
+{
+   "uuId": "7be1a6b5-22c1-4488-9aae-f44304a7d419",
+   "name": "how-you-know",
+   "metadata": {
+      "grouping": "Concern Details",
+      "answersType": "Multiple",
+      "required": false,
+      "uiElement": "button"
+   },
+   "display": {
+      "query": "How do you know about this issue?",
+      "abbreviatedQuery": "How do you know?",
+      "instruction": "Please select all that apply.",
+      "help": "If possible, please share additional details when prompted."
+   },
+   "attachments": {
+      "acceptedTypes": [],
+      "uploadedData": []
+   },
+   "answers": [
+      {
+         "choice": "I was there",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "d551fae7-e0a6-445e-a9df-7062b2cef456"
+      },
+      {
+         "choice": "I witnessed it",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "43fab058-7d6b-4e05-b73a-57adecc24b3b"
+      },
+      {
+         "choice": "Someone who was there told me",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who told you?",
+            "remark": ""
+         },
+         "uuId": "9a329c20-1729-4539-9493-f26073cd41d9"
+      },
+      {
+         "choice": "I overheard it",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who did you overhear it from?",
+            "remark": ""
+         },
+         "uuId": "0185f8f3-f83f-45a4-89a2-2526e7230e67"
+      },
+      {
+         "choice": "Someone who heard about it told me",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who told you?",
+            "remark": ""
+         },
+         "uuId": "5fad3cb1-07a0-45a1-b244-1fd8ecee4a50"
+      },
+      {
+         "choice": "Hearsay or Rumor",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "d066ded8-6d0b-4ac9-8491-2a1d496fc568"
+      },
+      {
+         "choice": "Other",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "31b7edda-b6b7-4f0e-900a-1640f230d807"
+      }
+   ]
+}

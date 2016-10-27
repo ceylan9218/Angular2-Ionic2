@@ -1,0 +1,107 @@
+{
+   "uuId": "a718d34d-88ee-4eb1-a7de-f3932cb99501",
+   "name": "who-else-knows",
+   "metadata": {
+      "grouping": "Concern Details",
+      "answersType": "Multiple",
+      "required": false,
+      "uiElement": "button"
+   },
+   "display": {
+      "query": "Who else knows about this issue?",
+      "abbreviatedQuery": "Who else knows?",
+      "instruction": "Please select all that apply.",
+      "help": "Please list anybody else who also knows of this issue; multiple selections are possible, and after selecting the corresponding check box you can also enter a specific individual's name."
+   },
+   "attachments": {
+      "acceptedTypes": [],
+      "uploadedData": []
+   },
+   "answers": [
+      {
+         "choice": "No one",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "e0f6568f-8580-4112-bcbf-0a1c0ca5c6cc"
+      },
+      {
+         "choice": "A coworker",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who?",
+            "remark": ""
+         },
+         "uuId": "a5b8f074-c9d0-41e8-bbd9-3284356c7076"
+      },
+      {
+         "choice": "My supervisor",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who?",
+            "remark": ""
+         },
+         "uuId": "704a7b03-df4b-406b-b56d-3a49e01ef812"
+      },
+      {
+         "choice": "A manager",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who?",
+            "remark": ""
+         },
+         "uuId": "df862dda-d163-46df-b496-538976c1fed1"
+      },
+      {
+         "choice": "Other",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "831c23b3-41a6-4908-a1a6-727055b182ca"
+      }
+   ]
+}

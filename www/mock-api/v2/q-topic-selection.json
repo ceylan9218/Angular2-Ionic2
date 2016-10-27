@@ -1,0 +1,90 @@
+{
+   "uuId": "688313ac-158c-408a-84b1-6f779bc34902",
+   "name": "topic-selection",
+   "metadata": {
+      "grouping": "Concern Overview",
+      "answersType": "Single",
+      "required": true,
+      "uiElement": "button"
+   },
+   "display": {
+      "query": "What type of issue would you like to discuss?",
+      "abbreviatedQuery": "Topic to discuss",
+      "instruction": "Please call 911 if this is an emergency.",
+      "help": "For use reporting the types of workplace issues listed above. General complaints and all other use prohibited."
+   },
+   "attachments": {
+      "acceptedTypes": [],
+      "uploadedData": []
+   },
+   "answers": [
+      {
+         "uuId": "dc03df5d-be08-46c2-95e9-890e9010462f",
+         "choice": "Security",
+         "category": "answer",
+         "icon": "fa-shield",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         }
+      },
+      {
+         "uuId": "6a10a204-6f09-4ebd-a8b5-051d3501c654",
+         "choice": "Safety",
+         "category": "answer",
+         "icon": "fa-lock",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         }
+      },
+      {
+         "uuId": "fa938f87-b4ff-49e1-a8a8-a9d79c4dd805",
+         "choice": "Integrity",
+         "category": "answer",
+         "icon": "fa-balance-scale",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         }
+      },
+      {
+         "uuId": "042b08c0-2a16-45f2-915e-903f2b80abf5",
+         "choice": "Not Sure",
+         "category": "answer",
+         "icon": "fa-inbox",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         }
+      }
+   ]
+}

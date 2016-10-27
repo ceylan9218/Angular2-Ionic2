@@ -1,0 +1,128 @@
+{
+  "uuId": "47a91fe4-68aa-4135-b1b4-18a03db8f067",
+  "name": "how-often",
+  
+  "metadata": {
+    "grouping": "Concern Details",
+    "answersType": "Single",
+    "required": false,
+    "uiElement": "button"
+  },
+  
+  "display": {
+    "query": "How often has this happened?",
+    "abbreviatedQuery": "How often?",
+    "instruction": "Please select the most accurate option.",
+    "help": "Please select the option which best describes how often you have witnessed or been aware of this concern."
+  }, 
+  
+  "attachments": {
+    "acceptedTypes": [],
+    "uploadedData": []
+  },
+  
+  "answers": [
+    {
+      "choice": "I'm not sure",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "64a52d0e-dcbe-4b61-9d84-0f2e6f60dc23"
+    },
+    {
+      "choice": "Once",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "2f397bf4-4af1-4a86-8bfa-aac60a1127d6"
+    },
+    {
+      "choice": "Twice",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "232eb8d1-4254-4cfe-be73-5fab344e85fe"
+    },
+    {
+      "choice": "Several times",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "2a8352a4-0490-4f25-b9d3-6fbb44d746ab"
+    },
+    {
+      "choice": "Frequently",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "7a8e0e1e-eb26-40fd-8bac-1c8e56947580"
+    },
+    {
+      "choice": "Other",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": true,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "99af8ca2-c2b5-439c-a781-14109b8ef497"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+   "uuId": "6d5811eb-369e-4c96-97c8-20b4ec6764e0",
+   "name": "who-involved",
+   "metadata": {
+      "grouping": "Concern Details",
+      "answersType": "Multiple",
+      "required": false,
+      "uiElement": "button"
+   },
+   "display": {
+      "query": "Who was involved?",
+      "abbreviatedQuery": "Who was involved?",
+      "instruction": "Please select all that apply.",
+      "help": "If possible, please share the name(s) or other additional details when prompted."
+   },
+   "attachments": {
+      "acceptedTypes": [],
+      "uploadedData": []
+   },
+   "answers": [
+      {
+         "choice": "I was involved",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "0f25d230-0190-40cb-a9c4-6f6a6cc640f1"
+      },
+      {
+         "choice": "A coworker",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who?",
+            "remark": ""
+         },
+         "uuId": "eaafb3a9-ba72-4d57-91f6-0b9bb55032fc"
+      },
+      {
+         "choice": "My supervisor",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who?",
+            "remark": ""
+         },
+         "uuId": "69cf3704-1995-4d95-959c-b780e0f045e8"
+      },
+      {
+         "choice": "A manager",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who?",
+            "remark": ""
+         },
+         "uuId": "48fdd51f-61e2-4bc7-8263-4bbd0ba36dde"
+      },
+      {
+         "choice": "A contractor",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who?",
+            "remark": ""
+         },
+         "uuId": "7fb50b08-d01f-43d5-ae01-91740b2f3f5f"
+      },
+      {
+         "choice": "I don't know",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "965d5bf0-c83b-4d52-8d80-39861fcea52b"
+      },
+      {
+         "choice": "I don't want to say",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "7eb6b6ce-9fe6-4241-81c3-fbf79df34bd4"
+      },
+      {
+         "choice": "Other",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "0a754ab4-e4cd-4a2e-b9fe-0b312cfafdda"
+      }
+   ]
+}

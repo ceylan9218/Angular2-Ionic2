@@ -1,0 +1,168 @@
+{
+  "uuId": "83064ab1-1e6d-4d12-9379-19bda0f5614c",
+  "name": "how-long",
+  
+  "metadata": {
+    "grouping": "Concern Details",
+    "answersType": "Single",
+    "required": false,
+    "uiElement": "button"
+  },
+  
+  "display": {
+    "query": "How long has this happened?",
+    "abbreviatedQuery": "How long?",
+    "instruction": "Please select the most accurate option.",
+    "help": "Please choose the best answer for how long this concern has been occuring, as you have been aware of it."
+  },
+  
+  "attachments": {
+    "acceptedTypes": [],
+    "uploadedData": []
+  },
+  
+  
+  
+  
+  
+  
+  "answers": [
+    {
+      "choice": "Just once",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "76234074-e50b-4ea6-9196-fafe10117771"
+    },
+    {
+      "choice": "A week",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "9ac14eb5-273e-48ea-a335-fd93e9ce8f85"
+    },
+    {
+      "choice": "A few weeks",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "1770d387-6938-4234-a2e2-e7aeb2b3b89a"
+    },
+    {
+      "choice": "A month",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "0978636a-1ff5-4c13-97ab-287d7f2d29a2"
+    },
+    {
+      "choice": "A few months",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "d62cdd16-f494-44f9-bf8f-9fa18025807e"
+    },
+    {
+      "choice": "A year",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "5ecc7a9f-7d59-4062-aa46-1459cfff7dbd"
+    },
+    {
+      "choice": "More than a year",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": false,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "2ad67171-d2dc-4a88-8c5e-63e3bbc9dd27"
+    },
+    {
+      "choice": "Other",
+      "category": "answer",
+      "icon": "",
+      "value": {
+        "selected": false,
+        "remark": ""
+      },
+      "optionalInput": {
+        "available": true,
+        "required": false,
+        "dataSource": "prompt",
+        "display": "Please explain.",
+        "remark": ""
+      },
+      "uuId": "e26f5f77-6631-4004-8e37-97061bc23621"
+    }
+  ]
+  
+}

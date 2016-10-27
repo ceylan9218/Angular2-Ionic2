@@ -1,0 +1,124 @@
+{
+   "uuId": "ad731990-fe60-4960-bd1d-8c1d26c8249f",
+   "name": "where-happened-last",
+   "metadata": {
+      "grouping": "Concern Details",
+      "answersType": "Multiple",
+      "required": false,
+      "uiElement": "button"
+   },
+   "display": {
+      "query": "Where did the issue occur?",
+      "abbreviatedQuery": "Where?",
+      "instruction": "Please select all that apply.",
+      "help": "Choose where this issue has occurred. Selecting 'Current Location' will automatically include your device's current GPS location."
+   },
+   "attachments": {
+      "acceptedTypes": [],
+      "uploadedData": []
+   },
+   "answers": [
+      {
+         "choice": "Your Current Location",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": true,
+            "dataSource": "gps",
+            "display": "Getting current GPS location...",
+            "remark": ""
+         },
+         "uuId": "4d8b422f-525b-431f-8f96-77eb09b82573"
+      },
+      {
+         "choice": "Office",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Can you be more specific?",
+            "remark": ""
+         },
+         "uuId": "94949ab9-16f5-4822-92a1-7fcf90719a0a"
+      },
+      {
+         "choice": "Warehouse",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Can you be more specific?",
+            "remark": ""
+         },
+         "uuId": "1941eda9-5b7f-4574-b6e1-e276ac50e2dc"
+      },
+      {
+         "choice": "Parking Lot",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Can you be more specific?",
+            "remark": ""
+         },
+         "uuId": "8e2ded44-2c7c-43a6-9757-f2142d7885b4"
+      },
+      {
+         "choice": "I don't know",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "d5528451-6ed3-4b9f-8dbd-0c7564f77dd3"
+      },
+      {
+         "choice": "Other",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "45fe9298-34de-4555-8c9a-1c638ba1a8d8"
+      }
+   ]
+}

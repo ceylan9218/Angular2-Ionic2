@@ -1,0 +1,158 @@
+{
+   "uuId": "a3145991-a2b2-41ec-bba3-2bab9520fe78",
+   "name": "who-should-know",
+   "metadata": {
+      "grouping": "Concern Details",
+      "answersType": "Multiple",
+      "required": false,
+      "uiElement": "button"
+   },
+   "display": {
+      "query": "Who should know about this issue?",
+      "abbreviatedQuery": "Who should know?",
+      "instruction": "Please select all that apply.",
+      "help": "Select who you believe should be notified of this issue; multiple selections are possible, also you can enter an individual's name after selecting the corresponding check box."
+   },
+   "attachments": {
+      "acceptedTypes": [],
+      "uploadedData": []
+   },
+   "answers": [
+      {
+         "uuId": "5381c971-c4ee-4616-9071-d490766976d0",
+         "choice": "My manager",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Who is your manager?",
+            "remark": ""
+         }
+      },
+      {
+         "uuId": "a1870100-cda9-40ab-9036-475dd2fc2e2e",
+         "choice": "Senior manager",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Which senior manager?",
+            "remark": ""
+         }
+      },
+      {
+         "uuId": "c543a9bd-e501-4a0e-bf8b-caf330a478f4",
+         "choice": "Human Resources (HR)",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "If you have an HR rep, who is it?",
+            "remark": ""
+         }
+      },
+      {
+         "uuId": "72ad9f19-592c-411d-8519-355256a8e372",
+         "choice": "Security",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Any specific individual?",
+            "remark": ""
+         }
+      },
+      {
+         "uuId": "bb8b7a3f-c145-45ed-83e0-8e01dcd209a5",
+         "choice": "Safety",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Any specific individual?",
+            "remark": ""
+         }
+      },
+      {
+         "uuId": "28b27832-4005-4480-b073-3f1e04e17200",
+         "choice": "Ethics",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Any specific individual?",
+            "remark": ""
+         }
+      },
+      {
+         "uuId": "597cc940-b28f-4006-86ad-5cdb494d1a69",
+         "choice": "Not sure",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "prompt": "Please explain.",
+            "remark": ""
+         }
+      },
+      {
+         "uuId": "266be6c0-9dce-4114-9734-f72836959b02",
+         "choice": "Other",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": true,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         }
+      }
+   ]
+}

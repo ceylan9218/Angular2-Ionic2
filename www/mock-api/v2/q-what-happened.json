@@ -1,0 +1,42 @@
+{
+   "uuId": "8eb8bd74-3fba-4ce1-b277-f513dce41bdb",
+   "name": "what-happened",
+   "metadata": {
+      "grouping": "Concern Details",
+      "answersType": "Prose",
+      "required": true,
+      "uiElement": "textbox"
+   },
+   "display": {
+      "query": "What happened?",
+      "abbreviatedQuery": "What Happened?",
+      "instruction": "Tell us what happened in as much detail as you can.",
+      "help": "Please share what happened in as much detail as possible. You can also submit a photo or audio recording along with your description of the issue."
+   },
+   "attachments": {
+      "acceptedTypes": [
+         "Imagery",
+         "Files"
+      ],
+      "uploadedData": []
+   },
+   "answers": [
+      {
+         "choice": "Type your notes here...",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "73d49d43-8e74-44f9-9fd5-c794bd826a44"
+      }
+   ]
+}

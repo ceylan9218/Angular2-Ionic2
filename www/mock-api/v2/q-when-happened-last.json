@@ -1,0 +1,56 @@
+{
+   "uuId": "43aab243-9b91-4bbe-9ca8-dac98fa5b59c",
+   "name": "when-happened-last",
+   "metadata": {
+      "grouping": "Concern Details",
+      "answersType": "DateTime",
+      "required": false,
+      "uiElement": "datetime"
+   },
+   "display": {
+      "query": "When did the issue happen?",
+      "abbreviatedQuery": "When?",
+      "instruction": "Approximate dates are okay.",
+      "help": "When did this issue occur last?  If you are unsure of the exact date and time, please provide us with your best estimate of the date and time when it happened."
+   },
+   "attachments": {
+      "acceptedTypes": [],
+      "uploadedData": []
+   },
+   "answers": [
+      {
+         "choice": "Date",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "bba70f40-5470-4ddd-9641-0a87376bbf0a"
+      },
+      {
+         "choice": "Time",
+         "category": "answer",
+         "icon": "",
+         "value": {
+            "selected": false,
+            "remark": ""
+         },
+         "optionalInput": {
+            "available": false,
+            "required": false,
+            "dataSource": "prompt",
+            "display": "Please explain.",
+            "remark": ""
+         },
+         "uuId": "1e448ed0-fe67-4a51-b7d8-467f1d83fb3a"
+      }
+   ]
+}
