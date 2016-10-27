@@ -1,1 +1,1 @@
-# Angular2-Ionic2-Typescript
+# Angular2-Ionic2
